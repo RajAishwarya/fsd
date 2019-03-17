@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+             <button type="button" id="myBtn2">Sign Up</button>
+            <button type="button" id="myBtn1">Sign In</button>
+            <h1>ScriBBler</h1>
+            <p>Explore, Imagine, Create</p>
+           
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <button type="button" id="allpost">All Posts</button>
+            <button type="button" id="createPost">Create Post</button>
+
+        </div>
+    </div>
+<!-- Insert code for Sign In modal here -->
+
+ <div class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+        <h1 id="signUpHead">Welcome Back!</h1>
+        <hr>
+    <form id="form">
+       <div class="divform">
+            <label name="fname">Username</label>
+            <input type="text" name="Full Name" placeholder="Enter Username" required>
+       </div>
+       <div class="divform">
+             <label name="password">Password</label>
+             <input type="text" name="password" placeholder="Enter Password" required>
+        </div>
+         <div class="divform">
+         <button id="formbtn">Sign In</button>
+          </div>
+        <div id="divform">
+            <p id="plink"> Not a member? <a id="link">Sign Up</a></p>
+        </div>
+      </form>
+    </div> 
+     </div>
+<!-- Insert code for Sign Up modal here -->
+   <div class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+        <h1 id="signUpHead">Get Started</h1>
+        <hr>
+    <form id="form">
+        <div class="divform">
+            <label name="fname">Full Name</label>
+            <input type="text" name="Full Name" placeholder="Enter Full Name" required>
+       </div>
+       <div class="divform">
+            <label name="fname">Username</label>
+            <input type="text" name="Full Name" placeholder="Enter Username" required>
+       </div>
+       <div class="divform">
+             <label name="password">Password</label>
+             <input type="text" name="password" placeholder="Enter Password" required>
+        </div>
+        <div class="divform">
+             <label name="cpassword">Confirm Password</label>
+             <input type="text" name="password" placeholder="Confirm Password" required>
+         </div>
+         <div class="divform">
+         <button id="formbtn">Sign Up</button>
+          </div>
+      </form>
+    </div> 
+     </div>
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="signUpHead">Create Post</h3>
+            <hr>
+            <form>
+                <div class="divform">
+                    <label>Title</label>
+                    <input type="text" placeholder="Enter title" required><br><br>
+                </div>
+                <div class="divform">
+                    <label>Content</label>
+                    <textarea rows="10" cols="10" type="text" placeholder="Enter Content" required></textarea><br><br>
+                </div>
+                <div class="divform">
+                    <button id="formbtn" type="submit">Submit</button>
+                </div><br>
+            </form>
+        </div>
+    </div>
+
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>
